@@ -23,7 +23,7 @@ int main(){
             }
         
     }
-    printf("Aæœ‰%då€‹,Bæœ‰%då€‹,Cæœ‰%då€‹\n",a,b,c);
+    printf("A¦³%d­Ó,B¦³%d­Ó,C¦³%d­Ó\n",a,b,c);
     printf("%s\n",s);
                        
 }

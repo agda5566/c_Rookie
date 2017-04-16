@@ -4,13 +4,14 @@
 void toUpper(char s[]);
 int main(){
     char str[21];
-    printf("è«‹è¼¸å…¥å­—ä¸²ï¼Œé•·åº¦å°æ–¼20\n");
+    printf("½Ð¿é¤J¦r¦ê¡Aªø«×¤p©ó20\n");
     scanf("%[^\n]20s",str);
-    //fgets(str,256,stdin);
+    //fgets(str,sizeof(str),stdin);
     //gets(str);
     toUpper(str);
-    printf("è½‰æ›å¾Œ: %2s\n",str);
-    return 0;
+    printf("Âà´««á: %s\n",str);
+    //puts(str);
+	return 0;
 
 }
 
@@ -21,7 +22,12 @@ void toUpper(char s[]){
         if(s[i]>=97 && s[i]<=122){
         
             s[i]=s[i]-32;
+            
         }
+        else if(s[i]==32){
+        	//Á×§KªÅ¥Õascii+32ÅÜ¦¨@ 
+		}
+        
         else{
         
             s[i]=s[i]+32;

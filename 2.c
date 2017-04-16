@@ -1,12 +1,14 @@
 #include<stdio.h>
 #include<stdlib.h>
 int main(){
-    char a[4]="8126"; //ç­”æ¡ˆ
+   
+	char a[4]="8126"; //³]©wµª®× 
+
     int m,n;
     char b[4];
     int i,j;
     
-    printf("è«‹è¼¸å…¥æ•¸å­—\n");
+    printf("½Ð¿é¤J¼Æ¦r\n");
     while(1){
         m=0,n=0;
         scanf("%4s",b); 

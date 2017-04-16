@@ -1,10 +1,10 @@
 #include<stdlib.h>
 #include<stdio.h>
-#define MAX 10 //ç‚¸å½ˆæ•¸é‡
-#define COL 5 //å¹¾åˆ—
-#define ROW 5 //å¹¾è¡Œ
+#define MAX 10 //¬µ¼u¼Æ¶q
+#define COL 5 //´X¦C 
+#define ROW 5 //´X¦æ 
 int main(){
-    //å»ºç«‹ç›¤é¢
+    //«Ø¥ß½L­± 
     srand(time(NULL));
     int miner[6][6];
     int i,j,b,m;
@@ -13,7 +13,7 @@ int main(){
             miner[i][j]=0;
         }
     }
-   //æ‰‹å‹•è¨­å®šç‚¸å½ˆ 
+   //¤â°Ê³]©w¬µ¼u 
     miner[0][0]=88;
     miner[0][2]=88;
     miner[0][4]=88;
@@ -24,8 +24,8 @@ int main(){
     miner[3][3]=88;
     miner[4][0]=88;
     miner[4][4]=88;
-    
-    //éš¨æ©Ÿç‚¸å½ˆ
+     
+    //ÀH¾÷¬µ¼u 
     /*int sum=0;
     while(sum<MAX){
         int i=rand()%5;
@@ -34,8 +34,8 @@ int main(){
             miner[i][j]=88;
             ++sum;
         }
-    }*/
-   //è¼¸å‡ºç›¤é¢ 
+    }*/ 
+   //¿é¥X½L­± 
    
     int count=0;
     for(i=0;i<ROW;i++){
