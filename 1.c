@@ -4,6 +4,7 @@
 #define COL 5 //幾列
 #define ROW 5 //幾行
 int main(){
+	//113 
     srand(time(NULL));
     int miner[ROW][COL];
     int i,j;
