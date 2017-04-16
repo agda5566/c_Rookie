@@ -10,18 +10,20 @@ int main(){
 		printf("%d, ",data[i]);
 	}
 	int pos=findMax(data);
-	printf("\nmax in position: %d\n",pos);
+	printf("\nmax in position: %d\n",&pos);
 	return 0;
 }
 int findMax(int *a){
-	int i,max;
-	max=a;
+	int num=*(a+0);
+	//printf("a=%d",a);
+	int i;
+	//int max=a;
 	for(i=1;i<10;i++){
-		if(*max<*(a+i)){
-			max=a+i;		
+		if(*(a+i)>num){
+			num=*(a+i);
+			
 		}
-	}	
-	
-	return max;
+	}
+	return num;
 }
 
